@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+.container {
+    width: 60rem;
+    height: 22rem;
+    
+    
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+   
+}
+.content {
+    width: 100%;
+    background-color: #fff;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.background {
+    width: 38rem;
+    height: 22rem;
+    overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.background_img {
+    width: 28rem;
+    height: 22rem;
+    background-image: url('../../images/drawers.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+@media (max-width: 850px) {
+    .container {
+        width: 26rem;
+        height: 36rem;
+    }
+}
+@media (max-width: 550px) {
+    .container {
+        min-width: 26rem;
+        min-height: 36rem;
+        margin: 2rem;
+    }
+}
