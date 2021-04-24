@@ -80,12 +80,53 @@ section {
     border-radius: 100%;
 }
 .profile_share {
+    cursor: pointer;
     position: absolute;
     bottom:10%;
-    right: 0;
+    right: 1%;
+    padding-left: 0;
+}
+.profile_share {
     padding: 0.5rem;
     border-radius: 100%;
     background-color: hsl(210, 46%, 95%);
+}
+
+.share_card {
+    display: none;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    bottom: 32%;
+    right: -5%;
+    border-radius: 0.5rem;
+}
+
+.share_card h1 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: hsl(212, 23%, 69%);
+}
+.share_card svg {
+    margin-left: 0.7rem;
+}
+span:hover {
+    background-color:hsl(217, 19%, 35%);;
+}
+span:hover path {
+    fill: #fff;
+}
+.cross {
+    width: 1rem;
+    height: 1rem;
+    background-color: hsl(217, 19%, 35%);
+    position: absolute;
+    top: 83%;
+    right: 45%;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    transform: rotate(45deg);
 }
 @media (max-width: 1025px) {
     .content {
