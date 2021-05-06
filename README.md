@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://codesandbox.io/s/article-preview-component-e0fyf
+- Solution URL: https://codesandbox.io/s/article-preview-component-forked-uvh3w
 
 ### Built with
 
